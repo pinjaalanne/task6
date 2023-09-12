@@ -68,6 +68,35 @@ fieldset {
     text-align: left;
 }
 
+#price {
+    color: white;
+    font-size: 18px;
+}
+
+#pricep {
+    color: white;
+    font-size: 18px;
+}
+
+#stickyprice {
+    position: -webkit-sticky;
+    position: sticky;
+    align-items: center;
+    top: 200px;
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    padding: 13px;
+    background-image: url(vegepizzalogo.png);
+    background-size: 200%;
+    background-position: center;
+    border: 2px solid double white;
+    display: flex;
+    border-radius: 50%
+}
+
 #namebox {
     padding: 30px;
     text-align: left;
@@ -143,35 +172,6 @@ input[type="checkbox"] {
 
 #delivery:focus {
     border: 1px solid rgb(237, 102, 48);
-}
-
-#price {
-    color: white;
-    font-size: 18px;
-}
-
-#pricep {
-    color: white;
-    font-size: 18px;
-}
-
-#stickyprice {
-    position: -webkit-sticky;
-    position: sticky;
-    align-items: center;
-    top: 200px;
-    margin-left: 300px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 70px;
-    height: 70px;
-    padding: 13px;
-    background-image: url(vegepizzalogo.png);
-    background-size: 200%;
-    background-position: center;
-    border: 2px solid double white;
-    display: flex;
-    border-radius: 50%
 }
 
 button {
