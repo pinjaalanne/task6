@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+body {
+    background-color: #397b39;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    color: black;
+    }
+
+img {
+    height: 200px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    font-style: italic;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+div {
+    padding: 3px;
+}
+
+.smallp {
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border: 2px solid #3c743c;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+#container {
+    background-color: white;
+    margin: 40px auto;
+    width: 800px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form-wrap {
+    padding: 15px;
+    border: 12px solid #397b39;
+    border-radius: 10px;
+}
+
+.form-wrap label {
+    padding: 7px;
+    text-align: left;
+}
+
+#namebox {
+    padding: 30px;
+    text-align: left;
+}
+
+#fullname {
+    margin-left: 20px;
+    text-align: left;
+    width: 250px;
+}
+
+input {
+    font: inherit;
+    color: black;
+    padding: 7px;
+    border: 1px solid #8fac9f;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid rgb(237, 102, 48);
+}
+
+input:hover {
+    cursor: pointer;
+    border-color:rgb(255, 98, 0);
+}
+
+::placeholder {
+    font: inherit;
+    font-style: italic;
+    color: #839a83;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+#radiobox {
+    accent-color: rgb(255, 98, 0);
+    text-align: left;
+    padding: 30px;
+}
+
+#checkbox {
+    accent-color: rgb(255, 98, 0);
+    text-align: left;
+    padding: 30px;
+}
+
+#deliverybox {
+    text-align: left;
+    padding: 30px;
+}
+
+#delivery {
+    font: inherit;
+    color: #2b4a2b;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+#delivery:hover {
+    background-color: white;
+    color: rgb(255, 98, 0);
+    cursor: pointer;
+    border-color:rgb(255, 98, 0);
+}
+
+#delivery:focus {
+    border: 1px solid rgb(237, 102, 48);
+}
+
+#price {
+    color: white;
+    font-size: 18px;
+}
+
+#pricep {
+    color: white;
+    font-size: 18px;
+}
+
+#stickyprice {
+    position: -webkit-sticky;
+    position: sticky;
+    align-items: center;
+    top: 200px;
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    padding: 13px;
+    background-image: url(vegepizzalogo.png);
+    background-size: 200%;
+    background-position: center;
+    border: 2px solid double white;
+    display: flex;
+    border-radius: 50%
+}
+
+button {
+    width: 170px;
+    padding: 15px;
+    margin: 30px 10px;
+    background-color: #3c743c;
+    font: inherit;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(237, 102, 48);
+}

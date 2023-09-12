@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link
+        href="https://fonts.googleapis.com/css?family=Raleway"
+        rel="stylesheet"
+        />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>VegePizza order form</title>
+    </head>
+    <body>
+        <main>
+            <div id="container">
+                <img src="vegepizzalogo.png" alt="no image" />
+                <div>
+                    <div class="form-wrap">
+                        <h1>Create the perfect pizza for your vegetarian taste</h1>
+                        <div id="stickyprice">
+                            <p id="pricep"><span id="price">7.5</span>€</p>
+                        </div>
+                        <form>
+                            <fieldset id="namebox">
+                                <div>
+                                    <label for="fullname">Name</label>
+                                    <input type="text" id="fullname" placeholder="Enter your name"/>
+                                </div>
+                            </fieldset>
+                            <fieldset id ="radiobox">
+                                <div>
+                                    <p>Please choose the serving size:</p>
+                                </div>
+                                <div>
+                                    <input type="radio" id= "twos" name="size" value="twoservings" checked />
+                                    <label for="twos">2 servings 7.50€</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id= "fours" name="size" value="fourservings" /> 
+                                    <label for="fours">4 servings 10.50€</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id = "sixs" name="size" value="sixservings" /> 
+                                    <label for="sixs">6 servings 12.50€</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id = "eights" name="size" value="eightservings" />
+                                    <label for="sixs">8 servings 12.50€</label>
+                                </div>
+                            </fieldset>
+                            <fieldset id="checkbox" >
+                                <div>
+                                    <p>Please choose your toppings:</p>
+                                    <p class="smallp">First four toppings are free, after that 0,50€ each</p>
+                                    <div>
+                                        <input type="checkbox"
+                                        id="mozzarella"
+                                        name="topping"
+                                        value="mozzarella"
+                                        />
+                                        <label for="mozzarella">Mozzarella</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox"
+                                        id="vmozzarella"
+                                        name="topping"
+                                        value="vmozzarella"
+                                        />
+                                        <label for="vmozzarella">Vegan mozzarella</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox"
+                                        id="parmesan"
+                                        name="topping"
+                                        value="parmesan"
+                                        />
+                                        <label for="parmesan">Parmesan</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox"
+                                        id="tomato"
+                                        name="topping"
+                                        value="tomato"
+                                        />
+                                        <label for="tomato">Tomato</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox"
+                                        id="pineapple"
+                                        name="topping"
+                                        value="pineapple"
+                                        />
+                                        <label for="pineapple">Pineapple</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox"
+                                        id="champignon"
+                                        name="topping"
+                                        value="champignon"
+                                        />
+                                        <label for="champignon">Champignon</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox"
+                                        id="onion"
+                                        name="topping"
+                                        value="onion"
+                                        />
+                                        <label for="onion">Onion</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox"
+                                        id="garlic"
+                                        name="topping"
+                                        value="garlic"
+                                        />
+                                        <label for="garlic">Garlic</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox"
+                                        id="chili"
+                                        name="topping"
+                                        value="chili"
+                                        />
+                                        <label for="chili">Chili</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox"
+                                        id="voner"
+                                        name="topping"
+                                        value="voner"
+                                        />
+                                        <label for="voner">Vöner</label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset id="deliverybox">
+                                <div>
+                                    <p>Please choose the delivery option:</p>
+                                    <div>
+                                        <select id="delivery">
+                                            <option selected disabled value = "empty">Select the delivery option</option>
+                                            <option value="home">Home delivery, + 5€</option>
+                                            <option value="eatin">Eat at the restaurant</option>
+                                            <option value="pickup">Pick up from restaurant</option>
+                                        </select>
+                                        <p class = "smallp">
+                                            Please note that we charge a delivery fee for the home delivery
+                                        </p>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <button id="button">Place an order</button>
+                        </form>
+                    </div>
+                </div>
+      <script src="main.js"></script>
+    </main>
+  </body>
+</html>
