@@ -53,7 +53,7 @@ const pizzaForm = () => {
         price +=5
     }
         console.log(price);
-        orderPrice.textContent = price
+        orderPrice.textContent = price.toFixed(2)
 
 }
 
