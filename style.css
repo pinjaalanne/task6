@@ -4,6 +4,8 @@
     box-sizing: border-box;
  }
 
+/* Styling main areas */
+
 body {
     background-color: #397b39;
     text-align: center;
@@ -48,6 +50,8 @@ fieldset {
     padding: 20px;
 }
 
+/* Styling the container ans form wrapping */
+
 #container {
     background-color: white;
     margin: 40px auto;
@@ -68,15 +72,7 @@ fieldset {
     text-align: left;
 }
 
-#price {
-    color: white;
-    font-size: 18px;
-}
-
-#pricep {
-    color: white;
-    font-size: 18px;
-}
+/* Styling the price to stick while scrolling */
 
 #stickyprice {
     position: -webkit-sticky;
@@ -98,6 +94,18 @@ fieldset {
     display: flex;
     border-radius: 50%
 }
+
+#price {
+    color: white;
+    font-size: 18px;
+}
+
+#pricep {
+    color: white;
+    font-size: 18px;
+}
+
+/* Styling the different form elements in more detail */
 
 #namebox {
     padding: 30px;

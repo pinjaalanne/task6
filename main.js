@@ -1,3 +1,4 @@
+// Getting the data 
 
 const form = document.querySelector('form')
 
@@ -10,19 +11,18 @@ const orderPrice = document.querySelector('#price')
 const pizzaForm = () => {
     
     let customerName = customer.value
-    console.log('customer',customerName);
     let servingPrice = ''
     let toppingPrice = []
     let deliveryPrice = delivery.options[delivery.selectedIndex].value
     let price = 0;
+
+// Starting from the serving price using switch
 
     serving.forEach(item => {
         if(item.checked){  
             servingPrice = item.value 
         }
     })
-
-    console.log('serving', serving);
 
     switch (servingPrice) {
         case 'twoservings':
@@ -39,6 +39,8 @@ const pizzaForm = () => {
             break;
     };
 
+// Adding the topping price if customer chooses more than four toppings
+
     topping.forEach(item => {
         if (item.checked){
             toppingPrice.push(item.value)
@@ -47,16 +49,14 @@ const pizzaForm = () => {
     if (toppingPrice.length > 4) {
         price += (toppingPrice.length -4) * 0.5
     }
-    console.log(toppingPrice);
+
+// Finally adding delivery price if the customer chooses home delivery
 
     if (deliveryPrice === "home") {
         price +=5
     }
-        console.log(price);
+    
         orderPrice.textContent = price.toFixed(2)
-
-}
-
-form.addEventListener('change', pizzaForm)
-
-
+    }
+    
+    form.addEventListener('change', pizzaForm)
