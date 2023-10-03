@@ -60,6 +60,7 @@ fieldset {
     padding: 30px;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 2px 2px 2px 1px rgba(64, 56, 56, 0.494);
 }
 
 .form-wrap {
@@ -196,6 +197,7 @@ button {
     border-radius: 5px;
     border-style: none;
     cursor: pointer;
+    box-shadow: inset 1px 1px 5px rgb(154, 160, 154), 1px 1px 1px 1px rgba(158, 153, 153, 0.646);
 }
 
 button:hover {
